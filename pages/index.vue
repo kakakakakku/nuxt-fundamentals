@@ -32,10 +32,9 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 
 .container {
-  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -48,7 +47,6 @@ export default {
   display: block;
   font-weight: 300;
   font-size: 100px;
-  color: #35495e;
   letter-spacing: 1px;
 }
 
